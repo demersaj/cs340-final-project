@@ -1,0 +1,27 @@
+.two-wrapper {
+	margin: auto;
+	column-count: 2;
+	column-gap: 2px;
+	width: 50%;
+}
+
+.four-wrapper {
+	margin: auto;
+	column-count: 4;
+	column-gap: 2px;
+	width: 75%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
